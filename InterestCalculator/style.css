@@ -1,0 +1,77 @@
+body {
+    background-color: #45aaf2;
+}
+
+.container {
+    position:absolute;
+    top: 5%;
+    left: 30%;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid lightskyblue;
+    box-shadow: grey 0 20px 30px -10px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.formula {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    color:#1e90ff;
+    text-decoration-line: overline;
+    text-decoration-color: #1e90ff;
+
+    padding-bottom: 20px;
+}
+
+.element {
+    font-size: large;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 3px solid lightskyblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+input:focus {
+    outline:none;
+    background: none;
+}
+
+button {
+    font-size: large;
+    font-weight: 400;
+    background-color: #54a0ff;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    /* display: block; */
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.result{
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: bold;
+    color:#54a0ff;
+}
+
+
+@media screen and (max-width: 720px){
+    h1{
+        white-space: nowrap;
+    }
+}
